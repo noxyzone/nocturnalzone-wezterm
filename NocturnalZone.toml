@@ -1,0 +1,81 @@
+[metadata]
+name = "NocturnalZone"
+author = "NocturnalZone"
+origin_url = "https://github.com/noxyzone/nocturnalzone-wezterm"
+wezterm_version = "Always"
+
+[colors]
+foreground = "#9d9da6"
+background = "#000000"
+cursor_bg = "#a9a9b3"
+cursor_border = "#a9a9b3"
+cursor_fg = "#000000"
+selection_bg = "#2c2c2e"
+selection_fg = "#b0b4be"
+scrollbar_thumb = "#3a3a3c"
+split = "#3a3a3c"
+
+ansi = [
+  "#18181d",
+  "#ff7a9e",
+  "#3fb085",
+  "#d6c95f",
+  "#007acc",
+  "#c47fd4",
+  "#27b8c8",
+  "#a9a9b3",
+]
+
+brights = [
+  "#3a3a3c",
+  "#fbbccc",
+  "#5cbc98",
+  "#dcd497",
+  "#389adc",
+  "#d6b3de",
+  "#5bd2e0",
+  "#b0b4be",
+]
+
+[colors.tab_bar]
+background = "#000000"
+
+[colors.tab_bar.active_tab]
+bg_color = "#18181d"
+fg_color = "#b0b4be"
+intensity = "Normal"
+underline = "None"
+italic = false
+strikethrough = false
+
+[colors.tab_bar.inactive_tab]
+bg_color = "#000000"
+fg_color = "#636366"
+intensity = "Normal"
+underline = "None"
+italic = false
+strikethrough = false
+
+[colors.tab_bar.inactive_tab_hover]
+bg_color = "#2c2c2e"
+fg_color = "#a9a9b3"
+intensity = "Normal"
+underline = "None"
+italic = false
+strikethrough = false
+
+[colors.tab_bar.new_tab]
+bg_color = "#000000"
+fg_color = "#636366"
+intensity = "Normal"
+underline = "None"
+italic = false
+strikethrough = false
+
+[colors.tab_bar.new_tab_hover]
+bg_color = "#2c2c2e"
+fg_color = "#a9a9b3"
+intensity = "Normal"
+underline = "None"
+italic = false
+strikethrough = false
